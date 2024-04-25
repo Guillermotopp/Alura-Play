@@ -8,9 +8,26 @@
 .cabecera__buscar__item{
     display: none;
 }
+.rodapie__container{
+    display: flex;
+    flex-flow: column wrap;
+    
+}
+.superior__seccion__container{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: scroll;
+    gap: 15px;
+}
 
 @media (min-width:834px){
     .cabecera__buscar__item{
         display: block;
     }
+}
+.rodapie__container{
+    justify-content: space-between;
+    
+    
 }
